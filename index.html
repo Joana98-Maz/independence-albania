@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Albania</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Fontawesome CDN Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-circle-progress/1.2.2/circle-progress.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+    
+  </head>
+  <body>
+    <!-- Move to up button -->
+    <div class="scroll-button">
+      <a href="#home"><i class="fas fa-arrow-up"></i></a>
+    </div>
+    <!-- navgaition menu -->
+    <nav>
+      <div class="navbar">
+        <div class="logo"><a href="#">ALBANIA</a></div>
+        <ul class="menu">
+          <li><a href="#History">History</a></li>
+          <li><a href="#Population">Population</a></li>
+          <li><a href="#Religion">Religion</a></li>
+          <li><a href="#services">Economy</a></li>
+          <div class="cancel-btn">
+            <i class="fas fa-times"></i>
+          </div>
+        </ul>
+       
+      </div>
+      <div class="menu-btn">
+        <i class="fas fa-bars"></i>
+      </div>
+    </nav>
+
+    <!-- Home Section Start -->
+    <section class="home" id="home">
+      <div class="home-content">
+        <div class="text">
+          <div class="text-one">Country of Eagles</div>
+          <div class="text-two">ALBANIA</div>
+          <div class="text-three">111 Years Independent</div>
+          <div class="text-four">28-29 November</div>
+          <div class="right">
+           
+          </div>
+        </div>
+        <div class="button">
+          <button id="scrollButton">Get to know Albania</button>  
+     
+        </div>
+      </div>
+      <div class="home-content2">
+        <img class="home-content-image" src="images/background.jpg"/>
+      </div>
+    </section>
+
+    <!-- About Section Start -->
+    <section class="about" id="about">
+      <div class ="content" id="scrollTarget"> 
+        <div class="title"><span>About Albania</span></div>
+        <div class="about-details">
+          <div class="left">
+<p><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3077619.191252902!2d17.3857042119237!3d41.1238828301598!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sde!2sde!4v1701039571666!5m2!1sde!2sde" width="500" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
+          </div>
+          <div class="right">
+            <div class="topic"></div>
+            <div>
+              
+              <p>
+                The Republic of Albania is a country in Southeast Europe. The country is located in the Balkans on the Adriatic and Ionian Seas within the Mediterranean Sea and shares land borders with Montenegro to the northwest, Kosovo to the northeast, North Macedonia to the east and Greece to the south. Spanning an area of 28,748 km2, it displays a varied range of climatic, geological, hydrological and morphological conditions. The country's landscapes range from rugged snow-capped mountains in the Albanian Alps and the Korab, Skanderbeg, to fertile lowland plains extending from the coasts of the Adriatic and Ionian seas. Tirana is the capital and largest city in the country, followed by Durrës, Vlorë, and Shkodër. 
+              </p> 
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="content"> 
+                <div class="title"><span>History</span></div>
+        <div class="about-details">
+          <div class="left">
+            <img src="images/about.jpg" alt="" />
+          </div>
+          <div class="right">
+            <div class="topic">Albania Independente</div>
+            <div>
+              <p>
+                The Declaration of Independence of Albania is the declaration of the independence of the Albanian vilayet from the Ottoman Empire in the conditions of the First Balkan War. Albania was declared independent in Vlora on November 28, 1912 by Ismail Qemali. 40 delegates from all Albanian territories participated in the declaration of independence. Immediately after the declaration of independence, the Assembly of Vlora formed the first government of Independent Albania led by Ismail Qemali and the Eldership. The assembly of 40 delegates in the Kasabana of Vlora on November 28, 1912, proclaimed the independence of Albania. The minutes after which the signatures of the envoys who arranged for the announcement were listed were dictated by Ismail Qemali.
+              </p> 
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Population -->
+    <!-- Section Tag and Other Div will same where we need to put same CSS -->
+    <section class="Population" id="Population">
+      <div class="content">
+        <div class="title"><span>Population</span></div>
+        <div class="skills-details">
+          <div class="text">
+            <div class="topic"></div>
+            <p>
+              The population of Albania has changed during last 30 years. This comes especially because
+              of the changes in economic system, passing from centralized economy to an open market system,
+              which has given its effect in births, deaths, migration, and definitely has an impact in the
+              future of Albanian population.
+              
+             <div class="experience">
+              
+            <canvas id="myChart" style="width:100%;max-width:600px"></canvas>
+            
+        
+          
+            </div>
+            </div>
+            
+          </section>
+   
+         <!-- Religion -->
+    <!-- Section Tag and Other Div will same where we need to put same CSS -->
+    <section class="Religion" id="Religion">
+      <div class="content">
+        <div class="title"><span>Religion</span></div>
+        <div class="skills-details">
+          <div class="text">
+            <div class="topic">Religion in Albania</div>
+            <p>
+              Albania has been a secular state since 1912, and as such, is "neutral in questions of belief 
+              and conscience". The former socialist government declared Albania the world's first 
+              "atheist state", even though the Soviet Union had already done so. Believers faced 
+              harsh punishments, and many clergymen were killed. Religious observance and practice 
+              is generally lax today, and polls have shown that, compared to the populations of 
+              other countries, few Albanians consider religion to be a dominant factor in their lives.
+               When asked about religion, people generally refer to their family's historical religious
+                legacy and not to their own choice of faith.
+            </p>
+        </div>
+      </div>
+      </div>
+      <div>
+      <canvas id="myPieChart" width="400" height="400"></canvas>
+      
+      </div>
+    </section>
+
+    <!-- Eonomy Section Start -->
+    <section class="services" id="services">
+      <div class="content">
+        <div class="title"><span>Economy</span></div>
+        <p>
+          Albania is implementing important structural reforms that will support equitable growth, 
+          raise productivity and competitiveness in the economy, create more jobs, 
+          and improve governance and public service delivery. Enhanced regional connectivity 
+          and access to regional and global markets, coupled with export and market diversification, 
+          can also help promote faster growth.  
+
+          After weathering the consequences of the 2019 earthquake, COVID-19 pandemic, and price crisis,
+           the government’s focus is now on full recovery with special attention on tourism, agriculture, 
+           and industrial sector.  It is encouraging to see that there is increased attention to climate change 
+           and the environmentally-friendly interventions across economic sectors.
+          
+          </p>
+        
+              
+            
+        </div>
+     
+      <div class="card-tourism-parent">
+      <div class="card GDP">
+        <div class="circle">
+          <div class="bar"></div>
+          <div class="box"><span></span></div>
+        </div>
+        <div class="text">Real GDP Growth</div>
+      </div>
+      <div class="card Unemployment">
+        <div class="circle">
+          <div class="bar"></div>
+          <div class="box"><span></span></div>
+        </div>
+        <div class="text">Unemployment</div>
+      </div>
+      <div class="card Inflation">
+        <div class="circle">
+          <div class="bar"></div>
+          <div class="box"><span></span></div>
+        </div>
+        <div class="text">Inflation</div>
+      </div>
+      
+    </div>
+    
+    <div class="card-tourism-parent">
+      <div class="card tourism">
+        <div class="circle">
+          <div class="bar"></div>
+          <div class="box"><span></span></div>
+        </div>
+        <div class="text">Tourism</div>
+      </div>
+      <div class="card Agriculture">
+        <div class="circle">
+          <div class="bar"></div>
+          <div class="box"><span></span></div>
+        </div>
+        <div class="text">Agriculture</div>
+      </div>
+      <div class="card IndustrialSector">
+        <div class="circle">
+          <div class="bar"></div>
+          <div class="box"><span></span></div>
+        </div>
+        <div class="text">Industrial Sector</div>
+      </div>
+      
+    </div>
+
+    <!-- Come and Celebrate section Start -->
+    <section class="Celebrate" id="Celebrate">
+      <div class="content">
+        <div class="title"><span>Where and When?</span></div>
+        <div class="text">
+          <div class="topic"></div>
+          <p>Come and Celebrate with Us the Independace Day at 8 o'clock at Mother Theresa Square </p>
+          <div class="button">
+            <button>Mark Your Presence</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer Section Start -->
+    <footer>
+      <div class="text">
+        <span>Created By <a href="#">Joana Mazniku</a> | &#169; 2023 All Rights Reserved</span>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+    <script>
+      var xValues = [1990,1995,2000,2005,2010,2015,2017,2018,2019,2020,2022,2023];
+var yValues = ["3.295,066","3,284,364","3,182,021","3,032,634","2,913,399","2,882,481","2,879,355","2,877,013","2,873,883","2,866,849","2,842,321","2,832,439"];
+var barColors = ["red","black","red","black","red","black","red","black","red","black","red","black"];
+
+
+
+      </script>
+      
+  </body>
+
+</html>
